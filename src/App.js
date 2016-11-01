@@ -16,7 +16,11 @@ class App extends Component {
   }
 
   componentDidMount() {
-    let posts = {"query": "{posts{url, comments}}"}
+    //this is what the actual query should look like with no mutation
+    // let posts = {"query": "{posts{url, comments}}"}
+    //this is probably going to be what people send over
+    // let posts = "{posts{url, comments}}"
+
 
     axios.post('http://localhost:3000/graphQL/Hyn9RL8lx', posts)
     .then((response) => {
