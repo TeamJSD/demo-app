@@ -6,6 +6,7 @@ body {
 
 img {
   width: 470px;
+  height: 280.923px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -14,9 +15,12 @@ img {
 }
 
 .post {
-  width: 500px;
-  margin: 0px auto;
+  width: 490px;
+  margin: 0px 5px 20px 5px;
   background-color: #f9f9f9;
+  display: inline-block;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); 
+
 }
 
 .comment {
