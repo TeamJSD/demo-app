@@ -6,10 +6,8 @@ const Post = (props) => {
     return (
       <div className="post">
         <img src={props.url}/>
-        <div>Comments: </div>
-        {props.comments.map((comment, i) => {
-          return <Comment message={comment} key={i}/>
-        })}
+        <div className='comments'>Comments: </div>
+        {props.comments}
       </div>
     )
   }
